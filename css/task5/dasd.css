@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.left{
+    float: left;
+}
+header{
+    position: relative;
+    height: 150px;
+    background-image: url("image/beijing1.png");
+    background-size: 100% 100%;
+    margin-top: 40px;
+}
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #66cccc;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-top: 90%;
+}
+button{
+    line-height: 2em;
+    color: #66cccc;
+    width: 43%;
+    height: 33px;
+    border-radius: 4px;
+}
+.button2{
+    float: right;
+    background-color: #66cccc;
+    margin-left: 5%;
+    color: white;
+}
+.button1{
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    background-color: white;
+    color: #66cccc;
+    border: 1px solid #66cccc;
+}
+.center{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    color: white;
+}
+.dian{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+    color: white;
+    height: 20px;
+    font-size: 15px;
+}
+.center1{
+    border-style: none none none solid;
+    border-color: #66cccc;
+    padding-left: 25px;
+    margin: 20px 0 20px 30px;
+    font-size: 15px;
+    min-height: 1rem;
+}
+.center2{
+    display: flex;
+    border: .1rem #66cccc;
+    border-style: none none solid none;
+    margin: 0 .4rem 0 .4rem;
+}
+.center3{
+    position: relative;
+    border: 2px #66cccc;
+    border-right: solid;
+    min-width: 100px;
+    min-height: 20px;
+    color: #66cccc;
+    margin-left: 1rem;
+}
+.center4{
+    position: absolute;
+    padding-left: 20px;
+    color: #66cccc;
+    margin-left: 120px;
+}
+.center5{
+    position: absolute;
+    padding-left: 20px;
+    color: red;
+    margin-left: 120px;
+}
+.center6{
+    padding-left: 20px;
+    color: #66cccc;
+}
+.center7{
+    display: flex;
+    border: .1rem #66cccc;
+    border-style: none none solid none;
+    margin: 0 .4rem 4rem .4rem;
+}
