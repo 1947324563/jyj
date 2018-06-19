@@ -32,7 +32,15 @@ body{
             -webkit-transition: all .2s;
             -ms-transition: all .2s;
         }
+        .p-one{
+            color: red;
+            margin: 0;
+            text-align: left;
+            padding-top: 20px;
+            display: none;
+        }
     }
+    
     .div-two{
         text-align: left;
         background: rgba(45,45,45,.15);
@@ -50,7 +58,7 @@ body{
             margin-left: 5px;
         }
         input{
-            width: 79%;
+            width: 78.8%;
             height: 46px;
             // line-height: 42px;
             // margin-top: 25px;
@@ -84,4 +92,5 @@ body{
         padding-top: 20px;
         margin-bottom: 50px;
     }
+    
 }
